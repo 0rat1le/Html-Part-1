@@ -1,55 +1,101 @@
 # Html-Part-1
-WEDE part 1
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobi OVM</title>
+    <title>Magowa Animal shelter and rescue</title>
 </head>
 <header>
-    <div class="header">
-        <div class="logo">
-    <h1>MOBI OVM</h1>
-    </div>
-    <ul>
-      <li><a href="Home">Home</a></li>
-      <li><a href="Products">Products</a></li>
-        <li><a href="Contacts">Contacts</a></li>
-        <li><a href="About">About</a></li>
-        <li><a href="Search bar"><button>Search</button></a></li>
-    </ul>
-    </div>
+    <nav>
+    <div class="logo">logo</div>
+<h1>Magowa Animal Shelter and Rescue</h1>
+<ul>
+<li><a href="#Home">Home</a></li>
+<li><a href="#Our services">Our Services</a></li>
+<li><a href="#Contact">Contact</a></li>
+<li><a href="#Donate">Donate</a></li>
+  <div><li><a href="#About us">About Us</a></li></div>
+</div>
+
+</ul>
+</nav>
 </header>
 <body>
-    <h3>PREMIUM SMARTPHONES</h3>
-    <h3>Get a phone at a low price and fast and affordable shipping at great prices.</h3>
-    <p>Shop the latest budget-friendly models and best sellers from top brands. Enjoy expert support, flexible payment options, and warranty coverage.</p>
-<h2>Best sellers</h2>
-<ul>
-<li>Iphone 13 Pro Max</li>
-<button>Buy Now</button>
-<button>Add to Cart</button>
-<img src="OIP.webp" alt="Iphone 13 Pro Max">>
-<li>Samsung Galaxy S21 Ultra</li>
-<button>Buy Now</button>
-<button>Add to Cart</button>
-<img src="samsung_s21_ultra_5g_256gb_1685705583_8dcb49dc_progressive.jpg" alt="Samsung S21 Ultra">
-<li>Samsung Galaxy S24 Ultra</li>
-<button>Buy Now</button>
-<button>Add to Cart</button>
-<img src="Samsung s24.webp" alt="Samsung S24 Ultra/Products">
-<li>Iphone 15</li>
-<button>Buy Now</button>
-<button>Add to Cart</button>
-<img src="iphone 15.webp" alt="Iphone 15">
-<li>Iphone 17 Pro Max</li>
-<button>Buy Now</button>
-<button>Add to Cart</button>
-<img src="iphone 17.webp" alt="iphone 17 Pro Max">
-</ul>
-<button>Shop Now</button>
-<button>Get Support</button>
+<section id="Home">
+    <h2>WELCOME TO MAGOWA ANIMAL SHELTER AND RESCUE</h2>
+    <p>Magowa Animal shelter and rescue aims to provide shelter, food and care for every animal in need.</p>
+   </section>
+    <p><b>Our Services</b></p>
+    <section id="Our services">
+    <ul>
+        <li>Animal adoption</li>
+        <li>Medical care</li>
+        <li>Community education</li>
+        <li>Volunteer opportunities</li>
+    </ul>
+    <h2>ANIMAL ADOPTION</h2>
+    <p>Do you want to adopt an animal? Visit our shelter or contact us to learn more about our adoptable pets.</p>
+  <li><img src="R.jpg" alt="ANIMAL ADOPTION"></li>
+     <li><img src="R (1).jpg" alt="ANIMAL ADOPTION"></li>
+  <li><img src="" alt="ANIMAL ADOPTION"></li>
+   <li><img src="OIP.webp" alt="ANIMAL ADOPTION"></li>
 
+   <h2>MEDICAL CARE</h2>
+   <p>We have veterinarians on staff to provide medical care for all animals in our shelter.</p>
+    <li><img src="ppl.webp" alt="MEDICAL CARE"></li>
+    <li><img src="OIP (2).webp" alt="MEDICAL CARE"></li>
+    <li><img src="OIP (3).webp" alt="MEDICAL CARE"></li>
+
+    <h2>COMMUNITY EDUCATION</h2>
+    <p>We offer educational programs to raise awareness about animal welfare and responsible pet ownership.</p>
+    <li><img src="OIP (4).webp" alt="COMMUNITY EDUCATION"></li>
+    <li><img src="OIP (5).webp" alt="COMMUNITY EDUCATION"></li>
+    <li><img src="OIP6.jpg" alt="COMMUNITY EDUCATION"></li>
+
+    <h2>VOLUNTEER OPPORTUNITIES</h2>
+    <p>Join our team of volunteers and help us make a difference in the lives of animals in need.</p>
+    <li><img src="Volunteer1.jpg" alt="VOLUNTEER OPPORTUNITIES"></li>
+    <li><img src="how-to-volunteer-animal-shelter-1.webp" alt="VOLUNTEER OPPORTUNITIES"></li>
+ </section>
+ <section id="Donate">
+    <h2>Donate</h2>
+    <p>Your donations help us provide care and shelter for animals in need. Consider making a contribution today.</p>
+<li><img src="donations.webp" alt="Animal Donations"></li>
+<p>You can donate online or by check.Your donation can make a huge diffence in the lives of the animals in our organisation.</p>
+<div container="donations">
+<h3>Donations received in the past 3 years:</h3>
+
+<ul>
+    <li>2022: R200 000</li>
+    <li>2022: R75,000</li>
+    <li>2023: R100,000</li>
+</div>
+</section>
+<section id="Contact">
+    <h2>Contact Us</h2>
+    <li>Email: info@magowaanimalshelter.org</li>
+    <li>Telephone: +27 15 556 8763
+                   +27 15 654 8764</li>
+<li>Address: 452 Agelo Ave, Polokwane, South Africa</li>
+</section>
+<section id="About us">
+    <h2>About Us</h2>
+    <p><b>Magowa Animal Shelter and Rescue is a non-profit organisation focused on rescuing animals in distress, and educating the community about animal welfare.</b></p>
+    <p>We aim to provide a safe haven for animals in need and promote responsible pet ownership within our community.</p>
+<p>Children are encouraged to visit our shelter and learn about animal care and welfare.</p>
+    <p>We aim to help every animal to be rescued and educate the community about the need to take good care of animals, and how to treat them with compassion and respect.</p>
+    <p>Magowa Animal Shelter and Rescue functions only because of kind donations of money, items and time. We are a purely non-profit organisation, and therefore rely solely on your kindness. There are many ways you can support us, through volunteering, donations or sponsorship.</p>
+    <li><img src="OIP9.avif" alt="Animal Shelter"></li>
+    <li><img src="OIP (8).webp" alt="Animal Shelter"></li>
+    <li><img src="OIP (7).webp" alt="Animal Shelter"></li>
+</section>
+<footer>
+   <h3>Working Hours</h3>
+    <p>Monday - Friday: 9 AM - 5 PM</p>
+    <p>Saturday: 10 AM - 4 PM</p>
+    <p>Sunday: 10 AM - 2 PM</p>
+    <p>&copy; 2026 Magowa Animal Shelter and Rescue. All rights reserved.</p>
+</footer>
 </body>
 </html>
