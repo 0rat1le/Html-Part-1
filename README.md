@@ -70,6 +70,7 @@
      <input type="text" id="breed name" name="animal breed" optional><br><br> 
 
      <input type="submit" value="Submit">
+     </form>
 
    <h2>MEDICAL CARE</h2>
    <p>We have veterinarians on staff to provide medical care for all animals in our shelter.</p>
@@ -126,8 +127,3 @@
     <p>Saturday: 10 AM - 4 PM</p>
     <p>Sunday: 10 AM - 2 PM</p>
     <p>&copy; 2026 Magowa Animal Shelter and Rescue. All rights reserved.</p>
-</footer>
-</body>
-</html>
-
-
