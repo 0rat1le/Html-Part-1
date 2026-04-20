@@ -41,6 +41,36 @@
   <li><img src="" alt="ANIMAL ADOPTION"></li>
    <li><img src="OIP.webp" alt="ANIMAL ADOPTION"></li>
 
+   <h3>Apply for online adoption below:</h3>
+    <form action="submit_adoption_form.php" method="post">
+     <label for="name">Name:</label>
+     <input type="text" id="name" name="name" required><br><br>
+
+     <label for="Surname">Surname</label>
+     <input type="text" id="surname" name="surname" required><br><br>
+    
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required><br><br>
+    
+     <label for="phone">Phone Number:</label>
+     <input type="tel" id="phone" name="phone" required><br><br>
+
+     <label for="living_condition"></label>Living Condition:</label>
+     <input type="text" id="living_condition" name="living_condition" required><br><br>
+
+     <label for="pet">Select a Pet:</label>
+     <select id="pet" name="pet" required>
+          <option value="">--Please choose an option--</option>
+          <option value="dog1">Dog </option>
+          <option value="cat2">Cat</option>
+          <option value="other1">Rabbit</option>
+          <option value="other2">Bird</option>
+     </select><br><br>
+     <label for="Animal breed ( for Dog or Cat)">Animal breed (For Dog or Cat)</label>
+     <input type="text" id="breed name" name="animal breed" optional><br><br> 
+
+     <input type="submit" value="Submit">
+
    <h2>MEDICAL CARE</h2>
    <p>We have veterinarians on staff to provide medical care for all animals in our shelter.</p>
     <li><img src="ppl.webp" alt="MEDICAL CARE"></li>
@@ -67,9 +97,9 @@
 <h3>Donations received in the past 3 years:</h3>
 
 <ul>
-    <li>2022: R200 000</li>
-    <li>2022: R75,000</li>
-    <li>2023: R100,000</li>
+    <li>2023: R200 000</li>
+    <li>2024: R75,000</li>
+    <li>2025: R350,000</li>
 </div>
 </section>
 <section id="Contact">
